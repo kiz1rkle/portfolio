@@ -110,7 +110,7 @@ div img {
   
 Footer {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     bottom: 0;
     background-color: var(--green);
     color: var(--light);
@@ -227,7 +227,30 @@ Footer {
       border: 5px solid var(--light);
   }
   
-  
+  /* Contact Me */
+
+  #contactme {
+    width: 100vw;
+    padding: 5vw 0vw;
+    margin-bottom: 5vw;
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: fadein;
+    animation-duration: 3s;
+  }
+
+  #contactme input {
+    background-color: var(--light);
+    border: none;
+    padding: 10px;
+    color: var(--dark);
+    text-align: center;
+    width: 80vw;
+    margin: 10px;
+  }
+
   /* Contacts */
   
   #Contact ul {
@@ -251,8 +274,34 @@ Footer {
       border-radius: 5px;
   }
   
- 
-  
+  #resume {
+    width: 100vw;
+    padding: 5vw 0vw;
+    margin-bottom: 5vw;
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: fadein;
+    animation-duration: 3s;
+  }
+
+  .download {
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  .download:hover{
+    color: var(--shadow)
+  }
+
+  .download:active{
+    color: var(--green)
+  }
+
   /* Inquiries */
   
   @media screen and (max-width: 800px) {

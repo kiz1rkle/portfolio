@@ -1,10 +1,18 @@
 import { useState } from 'react'
 import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route } from 'react-router-dom'
+
+//Importing All Components for Home Page
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Links from './components/mini-components/Links'
+
+
+//Importing All Pages
 import AboutMe from './components/pages/AboutMePage'
 import Portfolio from './components/pages/PortfolioPage'
-import Links from './components/mini-components/Links'
+import Contact from './components/pages/ContactPage'
+import Resume from './components/pages/ResumePage'
+
 
 import './App.css'
 
@@ -13,6 +21,8 @@ const router = createBrowserRouter(
     <Route>
       <Route path='/' element={<AboutMe />} />
       <Route path='portfolio' element={<Portfolio />} />
+      <Route path='contact' element={<Contact />} />
+      <Route path='resume' element={<Resume />} />
     </Route>
   )
   
