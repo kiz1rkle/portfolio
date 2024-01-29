@@ -302,6 +302,11 @@ Footer {
     color: var(--green)
   }
 
+  .resumep{
+    width: 80vw;
+    text-align: center;
+  }
+
   /* Inquiries */
   
   @media screen and (max-width: 800px) {
