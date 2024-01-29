@@ -233,6 +233,9 @@ Footer {
   
   /* Contact Me */
 
+  #contact-div{
+    margin: 20px;
+  }
   #contactme {
     width: 100vw;
     padding: 5vw 0vw;
@@ -294,6 +297,7 @@ Footer {
 
   #resume {
     width: 100vw;
+    height: auto;
     padding: 5vw 0vw;
     margin-bottom: 5vw;
     background-color: var(--green);

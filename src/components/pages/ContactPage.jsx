@@ -2,7 +2,7 @@
 
 export default function Contact () {
     return(
-        <div id='Contact'>
+        <div id='contact-div'>
             <h2>Contact Me</h2>
             <aside id='contactme'>
                 <h3>Title</h3>
