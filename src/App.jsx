@@ -50,7 +50,11 @@ function App() {
   return (
     <>
       <Header /> 
-      <RouterProvider router={router}/>
+      {/* <RouterProvider router={router}/> */}
+      <AboutMe />
+      <Portfolio />
+      <Contact />
+      <Resume />
       <Links />
       <Footer />
     </>
