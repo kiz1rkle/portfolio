@@ -1,4 +1,4 @@
-import Nav from './Nav.jsx'
+import Nav from './mini-components/Nav'
 
 export default function Header() {
 
@@ -15,7 +15,7 @@ export default function Header() {
             <aside id="hello">
                 <h2>Hello from RuckusEnjoyer! 
                     <br />
-                    <span class="small">Welcome to my Portfolio.</span>
+                    <span className="small">Welcome to my Portfolio.</span>
                 </h2>
             </aside>
         </>
