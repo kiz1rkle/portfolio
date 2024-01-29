@@ -4,7 +4,27 @@
   --dark: #4c6333;
   --shadow: #c7b888;
 }
-  
+
+/* Keyframes For Cool Animations */
+
+@keyframes fadein {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes picslide{
+    from {
+        margin-left: 800px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 40px;
+        opacity: 1;
+    }
+}
+
+/* Website Content */
+
 body {
     background-color: var(--light);
     display: flex;
@@ -47,6 +67,8 @@ header {
       border-color: var(--dark);
       box-sizing: border-box;
       width: 100vw;
+      animation-name: fadein;
+      animation-duration: 3s;
   }
 
 /* Navigation and Nav Links */
@@ -72,6 +94,11 @@ div {
     position: relative;
 }
 
+#header-img {
+    animation-name: picslide;
+    animation-duration: 2s;
+}
+
 div img {
     position: absolute;
     width: 25%;
@@ -88,6 +115,8 @@ Footer {
     background-color: var(--green);
     color: var(--light);
     padding: 10px;
+    animation-name: fadein;
+    animation-duration: 3s;
 }
 
 .links {
@@ -154,6 +183,8 @@ Footer {
       justify-content: space-evenly;
       display: flex;
       flex-direction: column;
+      animation-name: fadein;
+      animation-duration: 3s;
   }
 
   .works-label{
@@ -169,7 +200,8 @@ Footer {
   }
 
   .card {
-      width: 500px;
+      width: 10vw;
+      height: 35vh;
       border-style: solid var(--dark);
       border-width: 1px;
       padding: 10px;
@@ -188,7 +220,7 @@ Footer {
   
   .card img {
       position: relative;
-      left: 140px;
+      left: 5vw;
       width: 140px;
       height: 140px;
       top: auto;

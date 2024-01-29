@@ -21,8 +21,8 @@ const cWorks = [
         repoUrl: '#',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
-        title: 'hiiiiii',
-        desc: 'whats up omggg'
+        title: 'Kitty Cove',
+        desc: 'A Web App that '
     },
     {
         id: '2',
