@@ -8,10 +8,10 @@ function Nav(){
         // Children in React must be nested within a parent
         <nav>
             {/* <Link to="/portfolio"> Portfolio </Link> */}
-            <a>About Me</a>
-            <a>Portfolio</a>
-            <a>Contact Me</a>
-            <a>Resume</a>
+            <a href='/'>About Me</a>
+            <a href='/portfolio'>Portfolio</a>
+            <a href='/contact'>Contact Me</a>
+            <a href='/resume'>Resume</a>
         </nav>
 
     )

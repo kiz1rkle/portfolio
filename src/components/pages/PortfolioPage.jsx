@@ -9,10 +9,10 @@ export default function Portfolio () {
         <aside> 
             <h2 className='works-label'>Collaborative</h2>
             {/* Displaying Collaborative Works On The Page */}
-            <div>
+            <div className='works-div'>
                 {cWorks.map((app) =>(
                     <div key={app.id} className="card">
-                        <h3>{app.title}</h3>
+                        <h3 className='title'>{app.title}</h3>
                         <a href={app.appUrl}>
                             <img src={app.imageUrl} alt={app.imgAlt}/>
                         </a>
@@ -25,10 +25,10 @@ export default function Portfolio () {
         <aside> 
             <h2 className='works-label'>Personal Projects</h2>
             {/* Displaying Personal Projects on the Page */}
-            <div>
+            <div className='works-div'>
                 {pWorks.map((app) =>(
                     <div key={app.id} className="card">
-                        <h3>{app.title}</h3>
+                        <h3 className='title'>{app.title}</h3>
                         <a href={app.appUrl}>
                             <img src={app.imageUrl} alt={app.imgAlt}/>
                         </a>

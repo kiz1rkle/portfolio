@@ -205,13 +205,17 @@ Footer {
       border-style: solid var(--dark);
       border-width: 1px;
       padding: 10px;
-      margin: 20px;
+      margin: 20px 40px;
       flex: 0 0 300px;
       border-radius: 5px;
       box-shadow: 10px 5px 5px var(--dark);
       background-color: var(--light);
   }
   
+.title {
+    width: 1px;
+}
+
   .card p {
       position: relative;
       margin: 20px;
@@ -251,6 +255,16 @@ Footer {
     margin: 10px;
   }
 
+  #contactme button {
+    background-color: var(--dark);
+    color: var(--light);
+  }
+
+
+  #contactme button:hover {
+    color: var(--shadow);
+    border-color: none;
+  }
   /* Contacts */
   
   #Contact ul {
@@ -273,7 +287,11 @@ Footer {
       padding: 10px;
       border-radius: 5px;
   }
+
+ 
   
+  /* Resume */
+
   #resume {
     width: 100vw;
     padding: 5vw 0vw;

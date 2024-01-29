@@ -14,6 +14,7 @@ export default function Contact () {
                 <h3>Message</h3>
                 <input>
                 </input>
+                <button>Submit</button>
             </aside>
         </div>
     )
