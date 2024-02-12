@@ -7,9 +7,11 @@ export default function Project(props) {
             <a href={props.appUrl}>
                 <img src={props.imageUrl} alt={props.imgAlt}></img>
             </a>
-            <a href={props.repoUrl}>Repo Link</a>
-            <a href={props.appUrl}>App Link</a>
+            
             <p>{props.desc}</p>
+            <button href={props.repoUrl}>Repo Link</button>
+            <button href={props.appUrl}>App Link</button>
         </div>
+        
     )
 }

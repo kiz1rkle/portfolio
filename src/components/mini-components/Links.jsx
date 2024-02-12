@@ -5,8 +5,8 @@ export default function links() {
 
     return(
         <div className="links">
-            <a>Github</a>
-            <a>LinkedIn</a>
+            <a href='https://github.com/RuckusEnjoyer'>Github</a>
+            <a href='https://www.linkedin.com/in/kurtis-pullman-7496a0195/'>LinkedIn</a>
             <a>Stack Overflow</a>
         </div>
     )

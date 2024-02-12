@@ -39,7 +39,7 @@ const cWorks = [
         repoUrl: '#',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
-        title: 'Placeholder',
+        title: 'Fight My Dad',
         desc: 'My third project will be posted here.'
     },
     
@@ -51,8 +51,8 @@ const cWorks = [
 const pWorks = [
     {
         id: '1',
-        appUrl: '#',
-        repoUrl: '#',
+        appUrl: 'https://ruckusenjoyer.github.io/portfolio-OLD/',
+        repoUrl: 'https://github.com/RuckusEnjoyer/portfolio-OLD',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'Old Portfolio',
@@ -60,8 +60,8 @@ const pWorks = [
     },
     {
         id: '2',
-        appUrl: '#',
-        repoUrl: '#',
+        appUrl: 'https://ruckusenjoyer.github.io/ch3-javascript-password-generator/',
+        repoUrl: 'https://github.com/RuckusEnjoyer/ch3-javascript-password-generator',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'Javascript Password Generator',
@@ -69,8 +69,8 @@ const pWorks = [
     },
     {
         id: '3',
-        appUrl: '#',
-        repoUrl: '#',
+        appUrl: 'https://ruckusenjoyer.github.io/ch4-code-test/',
+        repoUrl: 'https://github.com/RuckusEnjoyer/ch4-code-test',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'Code Miniquiz',
@@ -78,8 +78,8 @@ const pWorks = [
     },
     {
         id: '4',
-        appUrl: '#',
-        repoUrl: '#',
+        appUrl: 'https://drive.google.com/file/d/17Az-FOT3lxAXjbmVUUwX97-SqyCUE76v/view',
+        repoUrl: 'https://ruckusenjoyer.github.io/ch4-code-test/',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'README Maker',
@@ -87,8 +87,8 @@ const pWorks = [
     },
     {
         id: '5',
-        appUrl: '#',
-        repoUrl: '#',
+        appUrl: 'https://drive.google.com/file/d/1hGgQgAVF5F-z3BnFnrOWgckbfUbaEnKt/view',
+        repoUrl: 'https://github.com/RuckusEnjoyer/svg-logo-maker',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'SVG Logo Maker',
@@ -96,8 +96,8 @@ const pWorks = [
     },
     {
         id: '6',
-        appUrl: '#',
-        repoUrl: '#',
+        appUrl: 'https://safe-plains-29301-f117403823f1.herokuapp.com',
+        repoUrl: 'https://drive.google.com/file/d/1hGgQgAVF5F-z3BnFnrOWgckbfUbaEnKt/view',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'Note Taker',
@@ -105,8 +105,8 @@ const pWorks = [
     },
     {
         id: '7',
-        appUrl: '#',
-        repoUrl: '#',
+        appUrl: 'https://shrouded-plateau-32289-c0854ac44300.herokuapp.com',
+        repoUrl: 'https://github.com/RuckusEnjoyer/blog-site',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
         title: 'Blog Site',
