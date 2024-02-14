@@ -35,12 +35,12 @@ const cWorks = [
     },
     {
         id: '3',
-        appUrl: '#',
-        repoUrl: '#',
+        appUrl: 'https://blooming-ocean-21815-ee46d2ed87a5.herokuapp.com',
+        repoUrl: 'https://github.com/SeeYouThursday/Fight-My-Dad',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
         imgAlt: '#',
-        title: 'Fight My Dad',
-        desc: 'My third project will be posted here.'
+        title: 'Fight My Dad!',
+        desc: 'Fight My Dad! Is the answer to the age-old accusation: My dad can beat up your dad. Can he? Find out in this browser game.'
     },
     
 
