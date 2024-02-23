@@ -29,7 +29,7 @@ const cWorks = [
         appUrl: 'https://guarded-plateau-06638-3f412fce1c4c.herokuapp.com',
         repoUrl: 'https://github.com/RuckusEnjoyer/travel-blog',
         imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
-        imgAlt: '#',
+        imgAlt: 'Logo for Voyage',
         title: 'Voyage',
         desc: 'A blogsite made to rate and review locations that you have visited. Give recommendations of restaurants, hotels, attractions, and destinations to your friends!'
     },
@@ -37,8 +37,8 @@ const cWorks = [
         id: '3',
         appUrl: 'https://blooming-ocean-21815-ee46d2ed87a5.herokuapp.com',
         repoUrl: 'https://github.com/SeeYouThursday/Fight-My-Dad',
-        imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
-        imgAlt: '#',
+        imageUrl: 'https://cdn.discordapp.com/attachments/551452864615153665/1207452529554759721/image.png?ex=65dfb2cc&is=65cd3dcc&hm=17855700039fedfa2b4232fdee6dcc8539db1069d3487bcbcbfcb12feb07e2cd&',
+        imgAlt: 'Logo For Fight My Dad!',
         title: 'Fight My Dad!',
         desc: 'Fight My Dad! Is the answer to the age-old accusation: My dad can beat up your dad. Can he? Find out in this browser game.'
     },
