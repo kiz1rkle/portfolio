@@ -17,8 +17,13 @@ export default function Portfolio () {
                             <img src={app.imageUrl} alt={app.imgAlt}/>
                         </a>
                         <p>{app.desc}</p>
-                        <button href={app.repoUrl}>Repo Link</button>
-                        <button href={app.appUrl}>App Link</button>
+                        <a href={app.repoUrl}>
+                            <button>Repo Link</button>
+                        </a>
+                        <a href={app.appUrl}>
+                            <button>App Link</button>
+                        </a>
+                        
                     </div>
                 ))}
             </div>
@@ -36,8 +41,12 @@ export default function Portfolio () {
                     </a>
                     
                     <p>{app.desc}</p>
-                    <button href={app.repoUrl}>Repo Link</button>
-                    <button href={app.appUrl}>App Link</button>
+                    <a href={app.repoUrl}>
+                            <button>Repo Link</button>
+                        </a>
+                        <a href={app.appUrl}>
+                            <button>App Link</button>
+                        </a>
                 </div>
                 ))}
             </div>

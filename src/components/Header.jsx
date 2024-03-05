@@ -13,7 +13,7 @@ export default function Header() {
             </div>
 
             <aside id="hello">
-                <h2>Hello from RuckusEnjoyer! 
+                <h2>Kurtis Pullman 
                     <br />
                     <span className="small">Welcome to my Portfolio.</span>
                 </h2>

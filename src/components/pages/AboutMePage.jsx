@@ -10,10 +10,10 @@ function AboutMePage() {
             </h2>
             <aside>
                 <p>
-                    I am a learning front-end website developer. My web development story started as a content author for a literary magazine, and I am currently enrolled in a coding bootcamp through edX. I am planning to specialize in Front end, however by the time my bootcamp is completed I will have experience in both front end as well as back end development. 
+                    I am a full Stack website developer with three years of experience in HTML and CSS, as well as one year of experience in javascript. I earned a full stack website development certificate in February of 2024, and I've used these skills continuously in my work.
                 </p> 
                 <p>
-                    I am also an artist and a character designer. Because of this, my work mainly surrounds writing character sheets and creating containers for my character's stories. When creating webpages, I focus the most on aesthetically pleasing design and accessibility.
+                    I am also a freelance artist, and I take that knowledge of color theory and creativity with me into the computer science field.
                 </p>
             </aside>
     </section>
