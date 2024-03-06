@@ -3,7 +3,7 @@ export default function Resume () {
         <div id='resumepage'>
             <h2>Resume</h2>
             <aside id='resume'>
-                <a className="download" href='../../assets/kurtis-p-resume.pdf' download>Download My Resume</a>
+                <a className="download" href='Kurtis_Pullman-Resume.pdf' download>Download My Resume</a>
 
                 <h3>Kurtis Pullman</h3>
                 <p class='resumep'>

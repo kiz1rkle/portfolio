@@ -225,6 +225,7 @@ Footer {
   
   .card img {
       position: relative;
+      background-color: var(--light);
       left: 5vw;
       width: 140px;
       height: 140px;
@@ -371,6 +372,9 @@ Footer {
       }
       #About {
           width: 100%;
+      }
+      header nav{
+        flex-direction: column;
       }
   }
   

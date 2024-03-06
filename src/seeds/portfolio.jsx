@@ -37,7 +37,7 @@ const cWorks = [
         id: '3',
         appUrl: 'https://blooming-ocean-21815-ee46d2ed87a5.herokuapp.com',
         repoUrl: 'https://github.com/SeeYouThursday/Fight-My-Dad',
-        imageUrl: 'https://cdn.discordapp.com/attachments/551452864615153665/1207452529554759721/image.png?ex=65dfb2cc&is=65cd3dcc&hm=17855700039fedfa2b4232fdee6dcc8539db1069d3487bcbcbfcb12feb07e2cd&',
+        imageUrl: 'fmdlogo.png',
         imgAlt: 'Logo For Fight My Dad!',
         title: 'Fight My Dad!',
         desc: 'Fight My Dad! Is the answer to the age-old accusation: My dad can beat up your dad. Can he? Find out in this browser game.'
