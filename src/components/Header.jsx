@@ -9,11 +9,11 @@ export default function Header() {
                 <Nav />
             </header>
             <div>
-                <img id='header-img' src="https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif" />
+                <img id='header-img' src="face.png" />
             </div>
 
             <aside id="hello">
-                <h2>Kurtis Pullman 
+                <h2>Hello from Kurtis Pullman! 
                     <br />
                     <span className="small">Welcome to my Portfolio.</span>
                 </h2>

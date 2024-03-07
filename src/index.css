@@ -243,9 +243,9 @@ Footer {
   
   /* Contact Me */
 
-  /* #contact-div{
+  #contact-div{
     margin: 20px;
-  } */
+  }
   #contactme {
     width: 100%;
     padding: 5vw 0vw;
@@ -258,7 +258,7 @@ Footer {
     animation-duration: 3s;
   }
 
-  #contactme input {
+  #contactme input, #contactme textarea {
     background-color: var(--light);
     border: none;
     padding: 10px;

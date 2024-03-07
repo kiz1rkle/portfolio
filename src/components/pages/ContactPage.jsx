@@ -1,22 +1,42 @@
-
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+const publicKey = import.meta.env.VITE_PUBLIC_KEY;
+const templateId = import.meta.env.VITE_TEMPLATE_ID;
+const serviceId = import.meta.env.VITE_SERVICE_ID;
 
 export default function Contact () {
-    return(
-        <div id='contact-div'>
-            <h2>Contact Me</h2>
-            {/* My instructor told me that form field validation was not a requirement, so this will be for future development */}
-            <aside id='contactme'>
-                <h3>Title</h3>
-                <input>
-                </input>
-                <h3>Email</h3>
-                <input>
-                </input>
-                <h3>Message</h3>
-                <input>
-                </input>
-                <button>Submit</button>
-            </aside>
-        </div>
-    )
-}
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(serviceId, templateId, form.current, {
+        publicKey: publicKey,
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
+  return (
+    <div className="contact-div">
+        <h3 className="works-label">Contact Me:</h3>
+        <form id="contactme" ref={form} onSubmit={sendEmail}>
+            <label>Name</label>
+            <input type="text" name="user_name" />
+            <label>Email</label>
+            <input type="text" name="user_email" />
+            <label>Message</label>
+            <textarea name="message" />
+            <input type="submit" value="Send" />
+        </form>
+        
+    </div>
+  );
+};
