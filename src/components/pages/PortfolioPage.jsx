@@ -11,20 +11,7 @@ export default function Portfolio () {
             {/* Displaying Collaborative Works On The Page */}
             <div className='works-div'>
                 {cWorks.map((app) =>(
-                    <div key={app.id} className="card">
-                        <h3 className='title'>{app.title}</h3>
-                        <a href={app.appUrl}>
-                            <img src={app.imageUrl} alt={app.imgAlt}/>
-                        </a>
-                        <p>{app.desc}</p>
-                        <a href={app.repoUrl}>
-                            <button>Repo Link</button>
-                        </a>
-                        <a href={app.appUrl}>
-                            <button>App Link</button>
-                        </a>
-                        
-                    </div>
+                    <Project key={app.id} app={app}/>
                 ))}
             </div>
             
@@ -34,20 +21,7 @@ export default function Portfolio () {
             {/* Displaying Personal Projects on the Page */}
             <div className='works-div'>
                 {pWorks.map((app) =>(
-                    <div className="card">
-                    <h3 className='title'>{app.title}</h3>
-                    <a href={app.appUrl}>
-                        <img src={app.imageUrl} alt={app.imgAlt}></img>
-                    </a>
-                    
-                    <p>{app.desc}</p>
-                    <a href={app.repoUrl}>
-                            <button>Repo Link</button>
-                        </a>
-                        <a href={app.appUrl}>
-                            <button>App Link</button>
-                        </a>
-                </div>
+                    <Project key={app.id} app={app}/>
                 ))}
             </div>
             

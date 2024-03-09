@@ -6,7 +6,7 @@ export default function Resume () {
                 <a className="download" href='Kurtis_Pullman-Resume.pdf' download>Download My Resume</a>
 
                 <h3>Kurtis Pullman</h3>
-                <p class='resumep'>
+                <p className='resumep'>
                 Front end web developer leveraging background in art and design to provide unique perspectives on how end-users interact with websites and software platforms. Earned a certificate in Full Stack Web Development from the University Coding Boot Camp. Innovative problem-solver who is passionate about developing apps with a focus on mobile-first design and development. Strengths in creativity, teamwork, and building projects from ideation to execution. 
                 </p>
 

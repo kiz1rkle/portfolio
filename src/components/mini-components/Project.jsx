@@ -1,16 +1,20 @@
 
-export default function Project(props) {
+export default function Project({app}) {
 
     return(
         <div className="card">
-            <h3>{props.title}</h3>
-            <a href={props.appUrl}>
-                <img src={props.imageUrl} alt={props.imgAlt}></img>
+            <h3 className='title'>{app.title}</h3>
+            <a href={app.appUrl}>
+                <img src={app.imageUrl} alt={app.imgAlt}/>
             </a>
-            
-            <p>{props.desc}</p>
-            <button href={props.repoUrl}>Repo Link</button>
-            <button href={props.appUrl}>App Link</button>
+            <p>{app.desc}</p>
+            <a href={app.repoUrl}>
+                <button>Repo Link</button>
+            </a>
+            <a href={app.appUrl}>
+                <button>App Link</button>
+            </a>
+                        
         </div>
         
     )
