@@ -19,7 +19,7 @@ const cWorks = [
         id: '1',
         appUrl: 'https://ruckusenjoyer.github.io/Kitty-Cove/index.html',
         repoUrl: 'https://github.com/RuckusEnjoyer/Kitty-Cove',
-        imageUrl: 'https://pyxis.nymag.com/v1/imgs/d29/4a6/d8b19f15856697769dc1c586d59ce82bd8-22-cat-video-truth-smoking.rsquare.w700.jpg',
+        imageUrl: 'kclogo.png',
         imgAlt: '#',
         title: 'Kitty Cove',
         desc: 'An entertainment app that provides silly games, fun facts, and cute pictures, all about cats!'
@@ -28,7 +28,7 @@ const cWorks = [
         id: '2',
         appUrl: 'https://guarded-plateau-06638-3f412fce1c4c.herokuapp.com',
         repoUrl: 'https://github.com/RuckusEnjoyer/travel-blog',
-        imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
+        imageUrl: 'voyagelogo.png',
         imgAlt: 'Logo for Voyage',
         title: 'Voyage',
         desc: 'A blogsite made to rate and review locations that you have visited. Give recommendations of restaurants, hotels, attractions, and destinations to your friends!'
