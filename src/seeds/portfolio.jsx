@@ -49,6 +49,20 @@ const cWorks = [
 //personal projects
 
 const pWorks = [
+    // {
+    //     id: '1',
+    //     appUrl: 'https://ruckusenjoyer.github.io/portfolio-OLD/',
+    //     repoUrl: 'https://github.com/RuckusEnjoyer/portfolio-OLD',
+    //     imageUrl: 'https://f2.toyhou.se/file/f2-toyhou-se/images/58919609_8VbzGiYepkRyQD3.gif',
+    //     imgAlt: '#',
+    //     title: 'Random Everything',
+    //     desc: 'This is an outdated version of my current portfolio. This website showcases my knowledge on Html and Css.'
+    // },
+];
+
+//Certificate Challenges
+
+const ceWorks = [
     {
         id: '1',
         appUrl: 'https://ruckusenjoyer.github.io/portfolio-OLD/',
@@ -112,11 +126,9 @@ const pWorks = [
         title: 'Blog Site',
         desc: 'This is a small tech blog. This website shows off my knowledge on MySQL databases, express.js, node.js, sequelize, and handlebars.'
     },
+]
 
-    
-
-];
 
 //exporting my files!!!
 
-export { cWorks, pWorks };
+export { cWorks, ceWorks, pWorks };

@@ -26,7 +26,7 @@ export default function Contact () {
 
   return (
     <div className="contact-div">
-        <h3 className="works-label">Contact Me:</h3>
+        <h2>Contact Me:</h2>
         <form id="contactme" ref={form} onSubmit={sendEmail}>
             <label>Name</label>
             <input type="text" name="user_name" />

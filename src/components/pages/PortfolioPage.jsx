@@ -1,4 +1,4 @@
-import { cWorks, pWorks } from '../../seeds/portfolio'
+import { cWorks, ceWorks, pWorks } from '../../seeds/portfolio'
 import Project from '../mini-components/Project'
 export default function Portfolio () {
     return(
@@ -24,8 +24,17 @@ export default function Portfolio () {
                     <Project key={app.id} app={app}/>
                 ))}
             </div>
-            
         </aside>
+        <aside> 
+            <h2 className='works-label'>Certificate Projects</h2>
+            {/* Displaying Personal Projects on the Page */}
+            <div className='works-div'>
+                {ceWorks.map((app) =>(
+                    <Project key={app.id} app={app}/>
+                ))}
+            </div>
+        </aside>
+        
     </section>
     )
 }
